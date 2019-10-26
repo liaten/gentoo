@@ -1,3 +1,4 @@
 1) mirrorselect -s1 -b10 -D //можно еще -H только для http
 2) cat /etc/portage/make.conf | grep GENTOO_MIRRORS
 fastest server = http://mirrors.evowise.com/gentoo/
+Kernel drives acer aspire e5-553g-1986: snd_hda_intel, pcieport, xhci_hcd, ahci, ehci-pci, r8169, ath10k_pci
