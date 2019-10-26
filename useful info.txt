@@ -1,0 +1,1 @@
+fastest server = http://mirrors.evowise.com/gentoo/
