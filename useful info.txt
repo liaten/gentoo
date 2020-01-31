@@ -1,5 +1,20 @@
 1) mirrorselect -s1 -b10 -D //можно еще -H только для http
 2) cat /etc/portage/make.conf | grep GENTOO_MIRRORS
-fastest server = http://mirrors.evowise.com/gentoo/
+3) git config --global user.email "vlad171vlad@gmail.com"
+4) git config --global user.name "liaten"
+5) xprop -- is useful to find app's class
+6) i3 configs are in: /home/gnutella/.config/i3/config
+7) To run i3 from Xserver use "startx"
+8) To update gentoo use: "sudo emerge --update --newuse --deep @world"
+9) To clean depencencies use: "sudo emerge -av --depclean"
+10) To sync packages from emerge use: "sudo emerge-webrsync"
+11) To add layman package use: "sudo layman -a <package>
+    To remove package from layman: "sudo layman -d <package>
+12) To update changes USE packages: "sudo emerge --update --changed-use --deep --quiet @world"
+13) To remove non-depend package without his depencencies: "sudo emerge -cav <package>"
+14) Install package with asking: "sudo emerge -a <package>"
+15) USE configs to one package that doesn't work without whem: "sudo nano -w /etc/portage/package.use/<package>"
+16) Keywords aka <~amd64> to work with packages are changed: "sudo nano -w /etc/portage/package.accept_keywords"
+
 Kernel drives acer aspire e5-553g-1986: snd_hda_intel, pcieport, xhci_hcd, ahci, ehci_pci, r8169, ath10k_pci
 firefox to set up uses "user.js" file
